@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movie Recommendation App</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎬 Movie Recommendation App</h1>
+
+  <div>
+    <label for="genre">Select a genre:</label>
+    <select id="genre">
+      <option value="Action">Action</option>
+      <option value="Romance">Romance</option>
+      <option value="Comedy">Comedy</option>
+      <option value="Horror">Horror</option>
+      <option value="Sci-Fi">Sci-Fi</option>
+    </select>
+    <button onclick="recommendMovies()">Recommend</button>
+  </div>
+
+  <div class="movie-list" id="movieList"></div>
+
+  <!-- Link to external JS -->
+  <script src="script.js"></script>
+</body>
+</html>
