@@ -33,8 +33,8 @@ Tools: Git, VS Code, Postman
 📂 Project Structure
 /todo-list │ ├── index.html # Main HTML file ├── style.css # Styling file ├── script.js # JavaScript logic └── README.md # Project documentation
 
-Repository link:https://github.com/SatoHikari/Movie-Recommendation-App.git
-
+Repository 
+https://github.com/jeffsam05092005-lang/movie-recom-app.git
 deployment link:https://satohikari.github.io/Movie-Recommendation-App/
 
 ⚙️ How It Works
